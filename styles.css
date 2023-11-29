@@ -30,10 +30,11 @@
 
 .quote-text {
     color: #1F2937;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
 }
+
 
 /* BACKGROUNDS */
 
@@ -167,4 +168,25 @@ button a {
     color: grey;
     font-weight: 400;
 }
+
+/* QUOTE SECTION */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 120px auto 100px;
+    gap: 0px;
+}
+
+.quote-attribute {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
 
